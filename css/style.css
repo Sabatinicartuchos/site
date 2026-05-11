@@ -388,8 +388,6 @@ p {
 
 .hero-visual {
   position: relative;
-  background: #000;
-  border-radius: var(--radius-lg);
 }
 
 .hero-visual img {
@@ -399,7 +397,6 @@ p {
   padding-top: 10px;
   margin-left: auto;
   border-radius: var(--radius-lg);
-  background: #000;
   filter: drop-shadow(0 34px 90px rgba(0, 0, 0, 0.55));
   mask-image: linear-gradient(to bottom, transparent 0%, #000 4%, #000 78%, rgba(0, 0, 0, 0.72) 88%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 4%, #000 78%, rgba(0, 0, 0, 0.72) 88%, transparent 100%);
