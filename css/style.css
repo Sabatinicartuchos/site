@@ -325,6 +325,10 @@ p {
   margin-top: 34px;
 }
 
+.hero-actions-mobile {
+  display: none;
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -457,6 +461,12 @@ p {
 .service-card p,
 .feature-card p {
   font-size: 0.96rem;
+}
+
+.feature-card {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
 }
 
 .service-card-image {
@@ -605,23 +615,6 @@ p {
   font-size: clamp(1.7rem, 3vw, 2.45rem);
   line-height: 1.05;
   letter-spacing: -0.04em;
-}
-
-.product-strip {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.product-strip span {
-  flex: 1 1 180px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-  padding: 18px 22px;
-  background: rgba(255, 255, 255, 0.055);
-  color: var(--color-soft-white);
-  font-weight: 900;
-  text-align: center;
 }
 
 /* Seção visual de tintas */
