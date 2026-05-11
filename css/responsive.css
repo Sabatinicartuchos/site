@@ -145,7 +145,43 @@
 
   .footer-grid {
     grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .footer-grid > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+
+  .footer-grid > div:first-child > .footer-brand {
+    display: block;
+    width: fit-content;
+    max-width: min(240px, 88vw);
+    margin: 0 auto 18px;
+  }
+
+  .footer-grid > div:first-child > .footer-brand img {
+    display: block;
+    margin: 0;
+  }
+
+  .footer-grid > div:first-child > p {
+    text-align: center;
+    max-width: 26rem;
+    margin-inline: auto;
+  }
+
+  .footer-grid > nav,
+  .footer-grid > div:nth-child(3) {
+    text-align: left;
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .footer-grid > nav a {
+    text-align: left;
   }
 }
 
@@ -246,15 +282,17 @@
   }
 
   .reviews-google-summary {
-    width: auto;
-    max-width: 100%;
-    margin-inline: auto;
     justify-content: center;
     text-align: center;
   }
 
   .reviews-google-suffix {
     font-size: 0.88rem;
+  }
+
+  .reviews-tenure-box {
+    font-size: 0.86rem;
+    padding: 14px 18px;
   }
 
 }
