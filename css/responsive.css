@@ -143,19 +143,6 @@
     padding: 82px 0;
   }
 
-  .paint-divider {
-    height: 410px;
-    margin: 0;
-  }
-
-  .paint-divider img {
-    top: 0;
-    width: 280%;
-    max-width: none;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   .page-hero {
     padding: 132px 0 68px;
   }
