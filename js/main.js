@@ -137,6 +137,17 @@ const setupForms = () => {
   });
 };
 
+const setupMapLoaders = () => {
+  document.querySelectorAll("[data-map-frame]").forEach((frame) => {
+    const card = frame.closest(".map-card");
+    if (!card) return;
+
+    frame.addEventListener("load", () => {
+      card.classList.add("is-loaded");
+    });
+  });
+};
+
 currentYear.forEach((item) => {
   item.textContent = new Date().getFullYear();
 });
@@ -146,6 +157,7 @@ setupSmoothScroll();
 setupRevealAnimations();
 setupParallax();
 setupForms();
+setupMapLoaders();
 updateHeader();
 
 window.addEventListener("scroll", updateHeader, { passive: true });
