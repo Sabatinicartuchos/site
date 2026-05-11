@@ -144,13 +144,13 @@
   }
 
   .paint-divider {
-    height: 250px;
+    height: 360px;
     margin: 0;
   }
 
   .paint-divider img {
     top: 0;
-    width: 150%;
+    width: 230%;
     max-width: none;
     left: 50%;
     transform: translateX(-50%);
@@ -163,6 +163,14 @@
   .quote-card {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .quote-section {
+    padding-bottom: 24px;
+  }
+
+  .contact {
+    padding-top: 24px;
   }
 
   .footer-grid {
